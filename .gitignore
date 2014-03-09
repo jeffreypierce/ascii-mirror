@@ -29,6 +29,6 @@ bower_components/
 karma_html/
 
 # Built files
-index.html
-/scripts/
-/styles/
+# index.html
+# /scripts/
+# /styles/
