@@ -11,12 +11,12 @@ html
     link(rel='stylesheet', href='styles/app.css')
 
   body
-    
+
     .container
       .main
         canvas.mirror(title="click to invert")
         p.intro
-          a.start(href="#") Click Here 
+          a.start(href="#") Click Here
           | to get started,
           | then agree to allow camera access above.
           br
@@ -29,19 +29,19 @@ html
           li
             input(type='range', value=50, max=75)
           li.value 50
-          
+
         ul.slider#scale
           li.label Scale
           li
             input(type='range', value=75, max=75)
           li.value 75
-          
+
         ul.slider#contrast
           li.label Contrast
           li
             input(type='range', value=50, max=75)
           li.value 50
-          
+
     .hidden
       video(autoplay)
       canvas.snapshot
